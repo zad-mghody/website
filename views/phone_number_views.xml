@@ -1,0 +1,14 @@
+<odoo>
+
+
+    <template id="custom_auth_signup_view" inherit_id="auth_signup.fields">
+        <xpath expr="//div[@class='mb-3 field-name']" position="after">
+            <div class="mb-3 field-phone_number">
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone_number" class="form-control form-control-sm" placeholder="Phone Number" required="required"/>
+            </div>
+        </xpath>
+    </template>
+
+
+</odoo>
